@@ -17,3 +17,10 @@ print('birthday = {}'.format(birthday))
 birthday_party = datetime.datetime.strptime('2015 04 21 12:00', '%Y %m %d %H:%M')  # H 24 hr clock 1pm would be 13
 # to not specify am and pm
 print(birthday_party)
+
+def to_string(dt):
+    return dt.strftime('%d %B %Y')
+
+def from_string(dt, dt_string):
+    new_date_format = datetime.datetime.strptime(dt, dt_string)
+    return new_date_format
