@@ -27,3 +27,4 @@ def minutes(dt_1, dt_2):  # timedelta minute challenge
     my_delta = dt_2 - dt_1
     my_seconds = datetime.timedelta.total_seconds(my_delta)
     return round(my_seconds / 60)
+
