@@ -28,3 +28,13 @@ def minutes(dt_1, dt_2):  # timedelta minute challenge
     my_seconds = datetime.timedelta.total_seconds(my_delta)
     return round(my_seconds / 60)
 
+#def minutes(dt1, dt2):
+ #   seconds = (dt2 - dt1).total_seconds()
+  #  return round(seconds / 60)
+
+# def time_tango(the_date, the_time):
+    # new_datetime = datetime.datetime(year = the_date.year, month = the_date.month, day = the_date.day,
+                                     # hour = the_time.hour, minute = the_time.minute, second = the_time.second,
+                                     # microsecond = the_time.microsecond)
+    # return new_datetime
+
