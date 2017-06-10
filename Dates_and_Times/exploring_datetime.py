@@ -38,3 +38,18 @@ def minutes(dt_1, dt_2):  # timedelta minute challenge
                                      # microsecond = the_time.microsecond)
     # return new_datetime
 
+# def time_machine(integer, string):
+  # if string == 'hours':
+    # return starter + datetime.timedelta(hours = integer)
+  # elif string == 'days':
+    # return starter + datetime.timedelta(days = integer)
+  # elif string == 'years':
+        # the_years = starter.days * 365
+    # return starter + datetime.timedelta(days = the_years)
+  # elif string == 'minutes':
+    # return starter + datetime.timedelta(minutes = integer)
+
+def timestamp_oldest(*args):
+  return datetime.datetime.fromtimestamp(min(args))
+#  smallest time is the oldest, later/newer times would be bigger
+#  measurement taken at 5 seconds is older than one taken at 15 seconds
