@@ -4,4 +4,8 @@ class Liar(list):
         super().__init__(*args, ** kwargs)
 
     def __len__(self):
-        return len(self) + random.choice([3, -3])
+        fake_len = super().__len__() + random.choice([-3, 3])
+        return fake_len
+
+'''can call super() and assign result to a variable.  Can
+then manipulate the value of that variable'''

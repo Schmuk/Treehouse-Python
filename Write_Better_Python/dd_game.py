@@ -77,7 +77,7 @@ def draw_map():
 
 monster, door, player['location'] = get_locations()
 logging.info('monster: {}, door: {}, player: {}'.format(monster, door, player['location']))
-
+# .info -> info level, change what's after the dot to log to that level (logging.debug, logging.error)
 while True:
     moves = get_moves(player['location'])
     print("Welcome to the dungeon!")

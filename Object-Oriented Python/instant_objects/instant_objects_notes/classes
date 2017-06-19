@@ -1,0 +1,7 @@
+     If I create an instance of the class Wizard, that instance will have attributes with the default values.
+For example the created instance will have the intelligent attribute set to true.  I can then change the value of that
+attribute on my instance.  If I create an instance of a class the intelligent attribute is True.  Then if I were to
+change the value of the attribute to False on the class (Wizard.intelligent = False) any instance created afterwards would have
+the updated attribute value.
+
+

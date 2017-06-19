@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Object-Oriented Python/advanced_objects/emulating_built-ins" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Object-Oriented Python/yatzy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Object-Oriented Python/inheritance_and_advanced_objects/emulating_iterables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yatzy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dates_and_Times/timed_quiz_app" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
