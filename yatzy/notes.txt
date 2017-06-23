@@ -1,0 +1,15 @@
+>>> import dice
+>>> import hands
+>>> hand = hands.Hand(size, die_class=dice.D6)
+>>> hand                                                      
+[<dice.D6 object at 0x7fa74356cf60>, <dice.D6 object at 0x7fa7
+435750b8>, <dice.D6 object at 0x7fa743575358>, <dice.D6 object
+ at 0x7fa7435a3128>, <dice.D6 object at 0x7fa7435a3160>]      
+>>>                                                           
+KeyboardInterrupt                                             
+>>> len(hand)                                                 
+5                                                             
+>>>
+
+
+practice this
